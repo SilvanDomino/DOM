@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: sans-serif;
+    gap: 10px;
+}
+header{
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    
+}
+.header__collapsed{
+    transform: translateY(-60px);
+}
+.coolButton{
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    transition: 0.4s all;
+    width: 200px;
+}
+.coolButton:hover{
+    background-color: #333;
+    cursor: pointer;
+}
