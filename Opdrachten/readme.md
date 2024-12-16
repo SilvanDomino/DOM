@@ -8,13 +8,13 @@
 * Voor het text input field en de knop om iets toe te voegen aan de todo lijst neem de volgende code over, en stop deze in de body tags.
 ```html
 <div>
-    <input type="text" name="text" id="textField--js">
-    <button id="addButton--js">Add</button>
+    <input type="text" name="text" id="textField">
+    <button id="addButton">Add</button>
 </div>
 ```
 Het eerst element is een text field. Het tweede element is een button. De `id`'s die we meegeven worden straks gebruikt in de javascript.
 We gaan een lijst met todo's maken. Dat betekent dat we elementen in een lijst gaan maken.
-* Voeg een `ul` element toe. Dit is een **u**nsorted **l**ist, daar staat de ul voor. Geef dit element een id genaamd *list--js*.
+* Voeg een `ul` element toe. Dit is een **u**nsorted **l**ist, daar staat de ul voor. Geef dit element een id genaamd *ulist*.
 * Geef de lijst een child, een `li` element. De inhoud van dit element is een taak. Bijvoorbeeld
 ```html
 <li>Javascript Huiswerk maken</li>
@@ -29,7 +29,7 @@ We hebben onze HTML voor deze applicatie klaar. De rest van ons werk gaat gebeur
     * Wanneer de **button** ingedrukt wordt dan wordt de text uit de inputfield gekopieerd.    
     `let button = document.getElementById("addButton");`
     * De **list** is de plek waar onze Todo teksten terecht komen.    
-    `let list = document.getElementById("list");`
+    `let list = document.getElementById("ulist");`
 
 ### De Button
 * Maak een functie aan. Deze functie gaat (straks) een todo toevoegen aan de lijst. Dus *addTodo* is een goede naam voor de functie.
