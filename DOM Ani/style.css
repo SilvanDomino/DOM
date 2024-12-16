@@ -17,7 +17,7 @@ header{
     padding: 20px;
     background-color: #222;
     color: white;
-    
+    transition: 1s all;
 }
 .header__collapsed{
     transform: translateY(-60px);
@@ -36,4 +36,7 @@ header{
 .coolButton:hover{
     background-color: #333;
     cursor: pointer;
+}
+.rotated{
+    rotate: 360deg;
 }
